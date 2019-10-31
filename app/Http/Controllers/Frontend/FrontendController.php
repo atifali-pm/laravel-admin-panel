@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\Blogs\Blog;
 use App\Models\Settings\Setting;
 use App\Repositories\Frontend\Pages\PagesRepository;
 
@@ -21,6 +22,16 @@ class FrontendController extends Controller
 
         return view('frontend.index', compact('google_analytics', $google_analytics));
     }
+
+    /**
+     * @return \Illuminate\View\View
+     */
+    public function blogs()
+    {
+        $blogs            = Blog::all();
+        return view('frontend.blogs', compact('blogs'));
+    }
+
 
     /**
      * show page by $page_slug.
