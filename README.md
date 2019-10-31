@@ -17,8 +17,6 @@ For Laravel 5 Boilerplate Features : [Features](https://github.com/rappasoft/lar
 * FAQ Module
 * API Boilerplate.
 
-Give your project a Head Start by using [laravel-adminpanel](https://github.com/viralsolani/laravel-adminpanel).
-
 ## Built-in Laravel Boilerplate Module Generator
 It gives you the ability to create a module using a sweet GUI, where you put in the Module Name and it will generate all the necessary files for you, like Model, Traits, Relationship, Migration, Controllers, Views and routes. So when you are done creating a module, you can directly go to the route generated and see your new module. Since, this does not have the ability to generate table fields for now, so you have to write the migration file that is generated and run a manual php artisan migrate command, and you are good to go.
 
@@ -31,7 +29,7 @@ Please check the official laravel installation guide for server requirements bef
 
 Clone the repository
 
-    git clone https://github.com/viralsolani/laravel-adminpanel.git
+    git clone https://github.com/atifali-pm/laravel-adminpanel.git
 
 Switch to the repo folder
 
@@ -90,7 +88,7 @@ You can now access the server at http://localhost:8000
 
 **TL;DR command list**
 
-    git clone https://github.com/viralsolani/laravel-adminpanel.git
+    git clone https://github.com/atifali-pm/laravel-adminpanel.git
     cd laravel-adminpanel
     cp .env.example .env
     composer install
